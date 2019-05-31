@@ -1,0 +1,179 @@
+@import url('variables.css');
+@import url('components/grid.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    font-family: var(--f-heading);
+}
+p{
+    font-family: var(--f-body);
+}
+
+/*Header*/
+
+header {
+    background-color: var(--c-secondary);
+}
+
+#head div {
+    color: var(--c-primary);
+    padding: 0;
+}
+
+#logo {
+    color: var(--c-primary);
+    text-decoration: none;
+}
+
+#name {
+    font-size: 25pt;
+}
+
+#slogan {
+    font-size: 10pt;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav a {
+    color: var(--c-white);
+    text-decoration: none;
+    font-size: 16pt;
+    font-family: var(--f-heading);
+}
+#nav p{
+    color: var(--c-white);
+}
+
+#nav a#active {
+    color: var(--c-primary)
+}
+
+#social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#social i {
+    color: var(--c-white);
+    font-size: 20pt;
+    padding: 0 .5em 0 .5em;
+}
+
+/*Main*/
+.hero-image {
+    background-image: url("../images/banner.jpg");
+
+    height: 35vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    flex: 1;
+    padding: var(--gutter);
+    color: rgba(255, 255, 255, 0.45);
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+main {
+    background-image: url("../images/lukas-blazek-261681-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.topbox {
+    background-image: url("../images/adult-adventure-backpack-1230302.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.topbox h2 {
+    padding-bottom: var(--gutter);
+}
+
+.topbox .col-12 {
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+hr {
+    border: 2px solid var(--c-tertiary);
+    border-radius: 5px;
+    margin-top: var(--gutter);
+}
+
+.box {
+    height: 25vh;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.box p{
+    color: var(--c-white);
+    font-size: 20pt;
+    padding: var(--gutter);
+    text-shadow: 2px 2px rgba(0, 0, 0, .7);
+    font-weight: 600;
+}
+
+.box1 {
+    background-image: url("../images/scott-goodwill-359336-unsplash.jpg");
+}
+
+.box2 {
+    background-image: url("../images/luke-porter-98215-unsplash.jpg");
+}
+
+.box3 {
+    background-image: url("../images/vincent-keiman-777777-unsplash.jpg");
+}
+
+.box4 {
+    background-image: url("../images/aditya-chinchure-1303330-unsplash.jpg");
+}
+
+.box5 {
+    background-image: url("../images/adrian-infernus-972427-unsplash.jpg");
+    background-position: bottom;
+}
+
+.box6 {
+    background-image: url("../images/paul-hermann-777999-unsplash.jpg");
+}
+
+/*Footer*/
+footer{
+    background-color: var(--c-secondary);
+}
+footer p{
+    text-align: center;
+    padding: var(--gutter);
+    color: var(--c-white);
+}
