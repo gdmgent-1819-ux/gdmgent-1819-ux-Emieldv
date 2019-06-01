@@ -1,16 +1,16 @@
 @import url('variables.css');
 @import url('components/grid.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: var(--f-body)
+}
 h1, h2{
     font-family: var(--f-heading);
-}
-p{
-    font-family: var(--f-body);
 }
 
 /*Header*/

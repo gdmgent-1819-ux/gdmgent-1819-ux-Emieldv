@@ -1,0 +1,108 @@
+@import url('variables.css');
+@import url('components/grid.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik&display=swap');
+
+.sg-title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #333;
+    margin: 1rem 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.sg-subtitle {
+    font-size: 1rem;
+    border-bottom: solid 1px #aaa;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    margin: 2rem 0 .5rem 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.sg-colors {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.sg-colors li {
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+    padding: 0.3em;
+    margin: 0 0.5em 0.5em 0;
+    min-width: 5em;
+    max-width: 14em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.sg-swatch {
+    display: block;
+    height: 4em;
+    margin-bottom: 0.3em;
+    border-radius: 5px;
+}
+.sg-label {
+    font-size: 90%;
+}
+
+/* Colors */
+#color1{
+    background: var(--c-primary);
+}
+#color2{
+    background: var(--c-secondary);
+}
+#color3{
+    background: var(--c-tertiary);
+}
+#color4{
+    background: var(--c-white);
+}
+
+/* typografie */
+.font-primary{
+    font-family: var(--f-heading);
+}
+.font-secondary{
+    font-family: var(--f-body)
+}
+
+/* knoppen */
+.btn {
+    display: inline-block;
+    background: var(--c-tertiary);
+    color: var(--c-white);
+    line-height: 1;
+    font-weight: bold;
+    padding: .5em 3em;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 1;
+    transition: 0.3s;
+}
+.btn:hover {
+    opacity: 0.6;
+}
+
+/* formulieren */
+#form{
+    width: 50%;
+    border: 1px solid var(--c-secondary);
+    padding: var(--gutter);
+    margin-bottom: var(--gutter);
+    font-family: var(--f-body)
+}
+#text{
+    width: 50%;
+    border: 1px solid var(--c-secondary);
+    padding: var(--gutter);
+    font-family: var(--f-body)
+}

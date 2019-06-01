@@ -1,21 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Styleguide</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/styleguide.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styleguide.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a9352b947.js"></script>
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+    <div class="container">
+
+        <h1 class="sg-title">Digital styleguide</h1>
+
+        <h2 class="sg-subtitle">Kleuren</h2>
+        <ul class="sg-colors">
+            <li>
+                <span class="sg-swatch" id="color1"></span>
+                <span class="sg-label">
+                    --c-gray or --c-primary <br />
+                    #464646
+                </span>
+            </li>
+            <li>
+                <span class="sg-swatch" id="color2"></span>
+                <span class="sg-label">
+                    --c-orange or --c-secondary <br />
+                    #ffc400
+                </span>
+            </li>
+            <li>
+                <span class="sg-swatch" id="color3"></span>
+                <span class="sg-label">
+                    --c-purple or --c-tertiary <br />
+                    #3831C4
+                </span>
+            </li>
+            <li>
+                <span class="sg-swatch" id="color4"></span>
+                <span class="sg-label">
+                    --c-white <br />
+                    #ffffff
+                </span>
+            </li>
+        </ul>
+
+        <h2 class="sg-subtitle">Typografie</h2>
+        <div class="font-primary">Primary font: "Roboto", "Helvetica", "Arial", sans-serif;</div>
+        <div class="font-primary"><strong>Primary font bold: "Roboto", "Helvetica", "Arial", sans-serif;</strong></div>
+        <div class="font-secondary">Secondary font: Rubik, "Helvetica", "Arial", sans-serif;</div>
+        <div class="font-secondary"><strong>Secondary font bold; Rubik, "Helvetica", "Arial", sans-serif;</strong></div>
+        <br>
+        <h1>Heading Level 1</h1>
+        <h2>Heading Level 2</h2>
+        <h3>Heading Level 3</h3>
+        <h4>Heading Level 4</h4>
+        <h5>Heading Level 5</h5>
+        <h6>Heading Level 6</h6>
+
+        <h2 class="sg-subtitle">Knopppen</h2>
+        <button class="btn">Reserveren</button>
+
+        <h2 class="sg-subtitle">Formulier</h2>
+        <div><input id="form" type="text" placeholder="Lorem ipsum"></div>
+        <div><textarea id="text" placeholder="Dit is een tekstvak"></textarea></div>
+
+        <h2 class="sg-subtitle">Componenten</h2>
+
+        <header>
+            <div class="container">
+                <div id="head" class="row">
+                    <div class="col-3">
+                        <a id="logo" href="#">
+                            <h1 id="name">Festicamp</h1>
+                            <p id="slogan">The wildest camping experience</p>
+                        </a>
+                    </div>
+                    <div id="nav" class="col-7">
+                        <a id="active" href="#">Home</a>
+                        <p> | </p>
+                        <a href="#">Activiteiten</a>
+                        <p> | </p>
+                        <a href="#">Faciliteiten</a>
+                        <p> | </p>
+                        <a href="#">Contact</a>
+                        <p> | </p>
+                        <a href="#">Formules & Reservatie</a>
+                    </div>
+                    <div id="social" class="col-2">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <br>
+
+        <div class="hero-image">
+            <div class="hero-text">
+                <i class="fas fa-chevron-circle-left"></i>
+                <h2>Placeholder "hero image"</h2>
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="row col-12 topbox">
+                    <h2 style="width: 100%">placeholder tekst & foto</h2>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat
+                            massa
+                            quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+                            justo,
+                            rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                            Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                            tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+                            ante,
+                            dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="box box1">
+                        <p>placeholder block</p>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <footer>
+                <p>Copyright 2010-19 Arteveldehogeschool. All Rights Reserved.</p>
+            </footer>
+
+        </div>
+    </div>
 </body>
+
 </html>
